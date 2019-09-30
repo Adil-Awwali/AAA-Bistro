@@ -59,6 +59,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     height: 500px;
     padding: 20px 0;
@@ -79,10 +80,10 @@ body {
 /* Spotlight End */
 
  /* Content Start */
-.content {
+.story-content {
     overflow: auto;
-    background-color: goldenrod;
-    padding: 0px 0;
+    background-color: darkgoldenrod;
+    padding: 5px 0;
     text-align: Center;
 }
 
@@ -92,6 +93,8 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
 }
 
 .s-cont-2 {
@@ -100,6 +103,8 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
 }
  /* Content End */
 
