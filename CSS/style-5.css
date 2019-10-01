@@ -1,0 +1,223 @@
+body {
+    background-color: goldenrod;
+    margin: 0;
+    font-family: cursive;
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+    margin: 0px auto;
+    background-color: black;
+}
+
+/* Header Start */
+.header {
+    background-color: white;
+    text-align: center;
+}
+
+.menu ul {
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    font-family: cursive;
+    padding: 5px 0px 5px 30px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+ .menu li a {
+     color: white;
+     text-decoration: none;
+ }
+
+ .menu li a:hover{
+     background-color: goldenrod;
+     color: black;
+     padding: 5px 0px 5px 0px;
+ }
+ /* Header End */
+
+/* Spotlight Start *//*
+.spotlight {
+    overflow: auto;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    padding: 20px 0;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5cm;
+    color: black;
+}
+*/
+
+.news {
+    background-image: url("../images/grill.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 400px;
+    padding: 0px 0;
+}
+
+.news h1{
+    background: goldenrod;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1cm;
+    color: black;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+}
+/* Spotlight End */
+
+ /* Content Start */
+.news-content {
+    overflow: auto;
+    background-color: darkgoldenrod;
+    padding: 5px 0;
+    text-align: Center;
+}
+
+.n-cont-1 {
+    overflow: auto;
+    background-color: goldenrod;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+    font-size: 0.5cm;
+}
+
+.n-cont-1 h5 {
+    font-size: 0.2cm;
+}
+
+.n-cont-2 {
+    background-image: url("../images/meeting.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+    height: 200px;
+    padding: 20px 0;
+    overflow: auto;
+    background-color: goldenrod;
+    padding: 30px;
+    text-align: left;
+    font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+    font-size: 0.5cm;
+}
+
+.n-cont-2 h5 {
+    font-size: 0.2cm;
+}
+
+.n-cont-3 {
+    background-image: url("../images/takeout.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+    height: 200px;
+    padding: 20px 0;
+    overflow: auto;
+    background-color: goldenrod;
+    padding: 20px;
+    text-align: right;
+    font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+    font-size: 0.5cm;
+}
+
+.n-cont-3 h5 {
+    font-size: 0.2cm;
+}
+
+.n-cont-4 {
+    background-image: url("../images/wedding.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+    height: 200px;
+    padding: 20px 0;
+    overflow: auto;
+    background-color: goldenrod;
+    padding: 20px;
+    text-align: left;
+    font-size: 0.5cm;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+    font-size: 0.5cm;
+}
+
+.n-cont-4 h5 {
+    font-size: 0.2cm;
+}
+ /* Content End */
+
+ /* Footer Start */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    
+}
+
+.container-box {
+    width: 90%;
+    overflow: auto;
+    margin: 0px auto;
+}
+
+.sosmed li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sosmed li a:hover {
+    color: goldenrod;
+}
+
+.go li a{
+    color: white;
+    text-decoration: none;
+}
+
+.go li a:hover{
+    color: goldenrod;
+}
+
+.sosmed, .go {
+    background-color: black;
+    float: left;
+    width: 20%;
+    font-family: cursive;
+}
+ /* Footer End */
+
+ /* Copyright Start */
+.copyright {
+    overflow: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+/* Copyright End */

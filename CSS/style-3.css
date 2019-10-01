@@ -55,40 +55,42 @@ body {
 }
 */
 
-.menu {
+.Gallery {
     background-image: url("../images/food-B.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    height: 200px;
+    height: 400px;
     padding: 0px 0;
 }
 
-.menu h1{
+.Gallery h1{
     background: goldenrod;
     width: 300px;
     height: 60px;
     text-align: center;
     position: absolute;
-    top: 0%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1cm;
-    color: black
+    color: black;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
 }
 /* Spotlight End */
 
  /* Content Start */
-.story-content {
+.Gallery-content {
     overflow: auto;
     background-color: darkgoldenrod;
     padding: 5px 0;
     text-align: Center;
 }
 
-.s-cont-1 {
+.g-cont-1 {
     overflow: auto;
     background-color: goldenrod;
     padding: 20px;
@@ -98,7 +100,7 @@ body {
     border-radius: 10px;
 }
 
-.s-cont-2 {
+.g-cont-2 {
     overflow: auto;
     background-color: goldenrod;
     padding: 20px;
@@ -141,7 +143,7 @@ body {
     color: goldenrod;
 }
 
-.sosmed, .go, .share {
+.sosmed, .go {
     background-color: black;
     float: left;
     width: 20%;

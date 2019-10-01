@@ -55,7 +55,7 @@ body {
 }
 */
 .story {
-    background-image: url("../images/Farm-house.jpg");
+    background-image: url("../images/Farm-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1cm;
-    color: black
+    color: black;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
 }
 /* Spotlight End */
 
@@ -140,7 +142,7 @@ body {
     color: goldenrod;
 }
 
-.sosmed, .go, .share {
+.sosmed, .go {
     background-color: black;
     float: left;
     width: 20%;
