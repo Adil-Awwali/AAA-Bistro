@@ -83,26 +83,23 @@ body {
 /* Spotlight End */
 
  /* Content Start */
-.location-content {
+.contact-content {
     overflow: auto;
     background-color: darkgoldenrod;
     padding: 5px 0;
     text-align: Center;
 }
 
-.l-cont-1 {
+.c-cont-1 {
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
-    text-align: left;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
-}
-
-.loc, .outlet {
-    float: left;
-    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
  /* Content End */
 

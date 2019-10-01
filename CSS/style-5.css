@@ -92,13 +92,14 @@ body {
 
 .n-cont-1 {
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: center;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
-    font-size: 0.5cm;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .n-cont-1 h5 {
@@ -106,69 +107,79 @@ body {
 }
 
 .n-cont-2 {
-    background-image: url("../images/meeting.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    position: relative;
-    height: 200px;
-    padding: 20px 0;
     overflow: auto;
-    background-color: goldenrod;
+    background-color: white;
     padding: 30px;
     text-align: left;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
-    font-size: 0.5cm;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .n-cont-2 h5 {
     font-size: 0.2cm;
 }
 
+.n-cont-2 img {
+    float: left;
+    padding-right: 100px;
+}
+
+.n-cont-2.n-c {
+    float: right;
+}
+
+
 .n-cont-3 {
-    background-image: url("../images/takeout.jpg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    position: relative;
-    height: 200px;
-    padding: 20px 0;
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: right;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
-    font-size: 0.5cm;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .n-cont-3 h5 {
     font-size: 0.2cm;
 }
 
+.n-cont-3 img {
+    float: right;
+    padding-left: 100px;
+}
+
+.n-cont-3.n-c-2 {
+    float: left;
+}
+
 .n-cont-4 {
-    background-image: url("../images/wedding.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    position: relative;
-    height: 200px;
-    padding: 20px 0;
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: left;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
-    font-size: 0.5cm;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .n-cont-4 h5 {
     font-size: 0.2cm;
+}
+
+.n-cont-4 img {
+    float: left;
+    padding-right: 100px;
+}
+
+.n-cont-4.n-c-3 {
+    float: right;
 }
  /* Content End */
 

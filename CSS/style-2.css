@@ -89,24 +89,28 @@ body {
     text-align: Center;
 }
 
-.s-cont-1 {
+.s-cont-1 {    
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: center;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.s-cont-2 {
+.s-cont-2 {    
     overflow: auto;
-    background-color: goldenrod;
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
     text-align: center;
     font-size: 0.5cm;
     border: 5px solid darkgoldenrod;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
  /* Content End */
 
